@@ -192,7 +192,7 @@ animation:spin 2s linear infinite;
 /* Aside */
 .aside {
   display:block;
-  width: 300px;
+  width: 270px;
   background-color: #fdf9ff;
   position: fixed;
   height: 100%;
