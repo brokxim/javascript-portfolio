@@ -1,0 +1,119 @@
+
+
+.style-switcher{
+    position: fixed;
+    top: 20px;
+    right: 0;
+    z-index: 11;
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #ffffff;
+    border-right: none;
+    border-radius: 0 0 0 5px;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.style-switcher:hover{
+cursor: pointer;
+}
+.style-switcher.open
+ {-webkit-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+
+.style-switcher h5{
+font-size: 16px;
+color:#302e4d;
+margin-top: 0;
+margin-bottom: 8px;
+border-bottom: 1px solid #e8dfec;
+padding-bottom: 5px;
+}
+.style-switcher ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;  
+}
+.style-switcher ul li {
+list-style-type: none; 
+display: inline-block;   
+margin-top: 8px;
+}
+.style-switcher ul li a{
+margin-right: 2px;
+height: 30px;
+width: 30px;
+display: block;
+border-radius: 50%;
+cursor: pointer;
+text-decoration: none;
+
+}
+.style-switcher label{
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
+.style-switcher .sircle{
+    position: absolute;
+    left: -45px;
+    font-size: 20px;
+    top: 0;
+    background:#ffffff;
+    border: 1px solid #d4d4e3;
+    border-right: none;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border-radius: 5px 0 0 5px;
+    line-height: 43px;
+}
+
+body.dark .section{
+    background-color: #151515;
+}
+body.dark .aside,
+body.dark .blog .blog-item-inner .blog-info,
+body.dark .contact .contact-form .form-item .form-control
+{
+        background-color: #222222;
+}
+body.dark .aside .nav li{
+    border-bottom:1px solid#393939;
+}
+body.dark .aside .nav li a,
+body.dark .aside .logo a,
+body.dark .home .intro h1,
+body.dark .home .intro p,
+body.dark .section-title h2,
+body.dark .about .about-content .about-text p,
+body.dark .about .about-content .personal-info .info-item,
+body.dark .about .about-content .title_h3,
+body.dark .section-title h2,
+body.dark .about .about-content .about-text h3,
+body.dark .about .about-content .personal-info .info-item p,
+body.dark .about .about-content .skills .skill-item h5,
+body.dark .portfolio .portfolio-filter button,
+body.dark .contact .contact-info-item h4,
+body.dark .blog .blog-item-inner .blog-info .blog-title,
+body.dark .blog .blog-item-inner .blog-info .blog-description,
+body.dark .blog .blog-item-inner .blog-info .blog-tags,
+body.dark .contact .contact-form .form-item .form-control
+
+{
+    color: #ffffff
+}
+
+body.dark .about .about-content .personal-info .info-item p span,
+body.dark .about .about-content .skills .skill-item .progress .skill-percent,
+body.dark .contact .contact-info-item p{
+    color:#d4d4e3;
+}
+body.dark .aside,
+body.dark .portfolio .portfolio-item .portfolio-img,
+body.dark .blog .blog-item .blog-item-inner
+{
+    border-color: #393939;
+}
