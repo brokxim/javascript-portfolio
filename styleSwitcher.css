@@ -75,7 +75,7 @@ body.dark .section{
     background-color: #151515;
 }
 body.dark .aside,
-body.dark .blog .blog-item-inner .blog-info,
+body.dark .blog .blog-item-inner
 body.dark .contact .contact-form .form-item .form-control
 {
         background-color: #222222;
@@ -113,9 +113,7 @@ body.dark .contact .contact-info-item p{
 }
 body.dark .aside,
 body.dark .portfolio .portfolio-item .portfolio-img,
-body.dark .blog .blog-item,
-body.dark .blog .blog-item-inner,
-body.dark .blog .blog-item-inner .blog-info,
+body.dark .blog .blog-item
 
 {
     border-color: #393939;
