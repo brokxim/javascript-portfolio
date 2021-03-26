@@ -113,7 +113,7 @@ body.dark .contact .contact-info-item p{
 }
 body.dark .aside,
 body.dark .portfolio .portfolio-item .portfolio-img,
-body.dark .blog .blog-item .blog-description
+body.dark .blog .blog-item .blog-item-inner .blog-info .blog-description
 {
     border-color: #393939;
 }
